@@ -9,7 +9,6 @@ namespace PokemonReviewApp.Data
         {
                 
         }
-
         public DbSet<Category> categories { get; set; }
         public DbSet<Country> country { get; set; }
         public DbSet<Owner> Owners { get; set; }
